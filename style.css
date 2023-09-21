@@ -1,0 +1,552 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    overflow-x: hidden;
+}
+button{
+    cursor: pointer;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.shaflogo{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: black;
+}
+.shaf{
+    color: #A71F17;
+    font-family: 'poppins';
+}
+svg{
+    display: none;
+    color: white;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    color: white;
+    font-family: 'poppins';
+}
+.about{
+    display: flex;
+    background-color: black;
+}
+.know{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50vh;
+    gap: 30px;
+    font-family: 'poppins';
+    flex-direction: column;
+}
+.get{
+    margin-left: 27%;
+}
+.hi{
+    color: gray;
+    margin-left: 27%;
+}
+.knowbut button{
+    background: linear-gradient(#E12A1E, #0502BD);
+    font-family: 'poppins';
+    color: white;
+    height: 8vh;
+    font-weight: bold;
+    width: 25%;
+    border: none;
+    border-radius: 10px;
+    margin-left: 27%;
+}
+.get{
+    color: white;
+    margin-top: 30%;
+}
+.mepic{
+    width: 50%;
+}
+.mepic img{
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    margin-left: 50px;
+}
+.myself{
+    display: flex;
+    background-color: #080808;
+}
+.mypic{
+    width: 50%;
+}
+.mypic img{
+    display: flex;
+    width: 80%;
+    height: 80vh;
+}
+.self{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50vh;
+    gap: 30px;
+    font-family: 'poppins';
+    flex-direction: column;
+}
+.there{
+    color: #A71F17;
+    font-size: large;
+    margin-top: 30%;
+}
+.senior{
+    color: gray;
+    margin-left: 27%;
+}
+.nike{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    font-family: 'poppins';
+}
+.problem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.critical{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.year{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    gap: 70px;
+    font-family: 'poppins';
+}
+.my{
+    display: flex;
+    margin-top: 40px;
+    font-size: larger;
+    color: #A71F17;
+}
+.end{
+    display: flex;
+    width: 80%;
+    color: white;
+    font-weight: bold;
+    justify-content: space-between;
+}
+.front{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 10%;
+}
+.tech{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+    font-family: 'poppins';
+}
+.html{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.css{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.boot{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.material{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.vue{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.angular{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.back{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-right: 20%;
+}
+.logy{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+    font-family: 'poppins';
+}
+.node{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.express{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.python{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.flask{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.net{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.java{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.php{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.skillsbut button{
+    background: linear-gradient(#E12A1E, #0502BD);
+    font-family: 'poppins';
+    color: white;
+    height: 8vh;
+    font-weight: bold;
+    width: 100%;
+    border: none;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    margin-right: 100px;
+}
+.recent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    gap: 70px;
+    font-family: 'poppins';
+}
+.blog{
+    display: flex;
+    font-size: larger;
+    color: #A71F17;
+    margin-top: 20px;
+}
+.blogpost{
+    display: flex;
+    gap: 40px;
+}
+.blogname{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.blogname img{
+    height: 30vh;
+}
+.collaborate{
+    display: flex;
+    flex-direction: column;
+    background-color: #151515ef;
+    border-radius: 15px;
+    padding: 20px;
+    gap: 20px;
+}
+.collaborate h3{
+    color: white;
+}
+.collaborate p{
+    font-size: small;
+    color: lightgray;
+}
+.bloname{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bloname img{
+    height: 30vh;
+}
+.collabo{
+    display: flex;
+    flex-direction: column;
+    background-color: #151515;
+    border-radius: 15px;
+    padding: 20px;
+    gap: 20px;
+}
+.collabo h3{
+    color: white;
+}
+.collabo p{
+    font-size: small;
+    color: lightgray;
+}
+.blname{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.blname img{
+    height: 30vh;
+}
+.rate{
+    display: flex;
+    flex-direction: column;
+    background-color: #151515;
+    border-radius: 15px;
+    padding: 20px;
+    gap: 20px;
+}
+.rate h3{
+    color: white;
+}
+.rate p{
+    font-size: small;
+    color: lightgray;
+}
+.blogbut button{
+    background: linear-gradient(#E12A1E, #0502BD);
+    font-family: 'poppins';
+    color: white;
+    height: 8vh;
+    font-weight: bold;
+    width: 100%;
+    border: none;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    gap: 30px;
+    font-family: 'poppins';
+    background-color: #080808;
+}
+.cont{
+    display: flex;
+    font-size: larger;
+    color: #A71F17;
+    margin-top: 20px;
+}
+.tact{
+    display: flex;
+    text-align: center;
+    color: lightgray;
+}
+.contbut button{
+    background: linear-gradient(#E12A1E, #0502BD);
+    font-family: 'poppins';
+    color: white;
+    height: 8vh;
+    font-weight: bold;
+    width: 100%;
+    border: none;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.have{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    gap: 40px;
+    font-family: 'poppins';
+    background-color: black;
+}
+.work{
+    display: flex;
+    font-size: x-large;
+    color: #A71F17;
+    margin-top: 20px;
+    text-align: center;
+}
+.media{
+    display: flex;
+    gap: 20px;
+}
+.all{
+    display: flex;
+}
+.right{
+    display: flex;
+    color: lightgray;
+    gap: 5px;
+}
+
+@media screen and ( max-width: 700px){
+    .container{
+        flex-direction: column;
+        width: 100%;
+    }
+    html{
+        overflow-x: hidden;
+    }
+    .shaflogo{
+        width: 100%;
+        height: 10vh;
+    }
+    .shaf{
+        width: 100%;
+        justify-content: center;
+    }
+    svg{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+    .about{
+        width: 100%;
+        flex-direction: column;
+    }
+    .know{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .mepic{
+        margin-top: 15%;
+        width: 100%;
+    }
+    .get{
+        display: flex;
+        text-align: center;
+        margin-left: 10px;
+        margin-top: 20%;
+    }
+    .hi{
+        display: flex;
+        text-align: center;
+        margin-left: 10px;
+        font-size: small;
+    }
+    .knowbut{
+        margin-left: 40%;
+        width: 180%;
+    }
+    .myself{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .self{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .there{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 10px;
+        margin-top: 50%;
+    }
+    .senior{
+        display: flex;
+        text-align: center;
+        margin-left: 10px;
+        font-size: small;
+    }
+    .nike{
+        gap: 10px;
+    }
+    .problem{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .critical{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .year{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .mypic{
+        margin-top: 40%;
+        width: 100%;
+        margin-left: 30px;
+    }
+    .skills{
+        width: 100%;
+    }
+    .end{
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
+    .front{
+        align-items: center;
+        justify-content: center;
+    }
+    .back{
+        align-items: center;
+        justify-content: center;
+        margin-left: 32%;
+    }
+    .blogpost{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .tact{
+        text-align: center;
+        font-size: x-small;
+    }
+}
